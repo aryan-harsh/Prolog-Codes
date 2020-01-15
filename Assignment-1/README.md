@@ -15,7 +15,7 @@ their argument is a list of even or odd length.
 
 Write a recursive Prolog program Towers of Hanoi puzzle
 
-###Description about problem:
+### Description about problem:
 
 This object of this famous puzzle is to move N disks from the left peg to the right peg using the center peg
 as an auxiliary holding peg. At no time can a larger disk be placed upon a smaller disk. The following diagram
@@ -25,21 +25,22 @@ depicts the starting setup for N=3 disks.
 ## Ques 3
 Write a prolog program of water jug problem.
 
-###Description about problem:
+### Description about problem:
 
 A Water Jug Problem: You are given two jugs, a 4-gallon one and a 3-gallon one, a pump which has
 unlimited water which you can use to fill the jug, and the ground on which water may be poured. Neither jug
 has any measuring markings on it. How can you get exactly 2 gallons of water in the 4-gallon jug?
-###State Representation and Initial State 
+### State Representation and Initial State 
 we will represent a state of the problem as a tuple (x, y) where x
 represents the amount of water in the 4-gallon jug and y represents the amount of water in the 3-gallon jug.
 Note 0 ≤ x ≤ 4, and 0 ≤ y ≤ 3. Our initial state: (0,0)
-###Goal Predicate – 
+### Goal Predicate – 
 state = (2,y) where 0 ≤ y ≤ 3.
 
 ## Ques 4
 Write a prolog program for missionaries and cannibals
-###Description About problem:
+
+### Description About problem:
 In this problem, three missionaries and three cannibals must cross a river using a boat which can carry at
 most two people, under the constraint that, for both banks, that the missionaries present on the bank cannot
 be outnumbered by cannibals. The boat cannot cross the river by itself with no people on board.
@@ -53,7 +54,7 @@ Class (0, zero).
 Class (Number, negative) :- Number less than 0
 Define this procedure in a more efficient way using cuts.
 
-### Ques 5.2
+## Ques 5.2
 Define the procedure
 split(Numbers, Positives, Negatives)
 which splits a list of numbers into two lists: positive ones (including zero) and negative ones. 
