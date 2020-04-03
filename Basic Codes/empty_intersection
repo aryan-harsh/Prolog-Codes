@@ -3,5 +3,5 @@ empty_intersection(List1, List2) :-
 
 /*
 Remove this comment while compiling.
-The following function checks is intersesction of the the list is empty.
+The following function checks is intersection of the the list is empty.
 */
